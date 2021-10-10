@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice to Text in JS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-5">Press the start button and convert your speech into text.</h2><br>
+        <img class="img-responsive" src="stt.svg" alt="Chania" width="200" height="20"> 
+    </div><br>
+    <div class="container">
+            <div class="form-group">
+                <textarea id="textbox" rows="6" class="form-control"></textarea>
+            </div>
+            <button id="start-btn" class="btn btn-secondary btn-block">
+                Start
+            </button>
+            <p id="instructions">Press the Start button</p>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
